@@ -1,0 +1,70 @@
+/*-------------------ROOT VARIABLES ---------------*/
+:root {
+  --color-primary:#172ce6;
+  --color-danger: #fc071b;
+  --color-dark: #363949;
+}
+
+body{
+    background: var(--color-dark);
+}
+
+img{
+  
+  display: flex;
+  width: 8%; /*Porcentaje del tamaño del logo */ 
+}
+
+.primary{
+  color: var(--color-primary);
+}
+.danger{
+  color: var(--color-danger);
+}
+
+.welcome {
+    background-position: center center;
+    background-size: cover;
+}
+
+h2 {
+  padding: 30px;
+  color: rgb(253, 152, 0);
+}
+
+h1 {
+  border: 2px solid powderblue;
+  padding: 40px;
+  color: red;
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button1 {background-color:#4CAF50} /* Blue */
+.button2 {background-color: #f44336;} /* Red */ 
+
+.navbar img {
+  width: 1.2rem;
+}
+
+#pagos {
+  color: green;
+  box-shadow: 0px 0px 15px currentcolor;
+  border: 5px solid currentcolor;
+  padding: 15px;
+}
